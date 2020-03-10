@@ -1,0 +1,445 @@
+
+    /* ========================================  Start default style ============================================ */
+
+    *{
+        margin: 0;
+        padding: 0;
+        color: #707070;
+        font-family: Montserrat, "Helvetica Neue", sans-serif;
+    }
+
+    .container-with{
+        max-width: 100%;
+    }
+
+    .first_section{
+        width: 100%;
+        position: relative;
+        background: linear-gradient(rgba(119, 242, 240, 0.6), rgba(132, 176, 205, 0.6)), url("../img/zena-manja.png")  no-repeat left bottom/cover;
+        height: 50vh;
+    }
+
+    .tex-over-image{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .title{
+        color: #fff;
+        font-size: 3em;
+        margin-bottom: 1em;
+    }
+
+    .paragraph{
+        color: #fff;
+        font-size: 1.4em;
+    }
+
+    .responsive-images{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .form{
+        margin-bottom: 30px;
+        padding: 5% 30%;
+    }
+
+    .questions{
+        margin: 20px 0;
+    }
+
+    .questions-title{
+        font-size: 25px;
+        margin: 15px 0;
+        padding-right: 5px;
+    }
+
+    .wizard-step{
+        list-style: none;
+    }
+
+    .form-control{
+        display: block;
+        width: 80%;
+        height: 30px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    }
+
+    .form-control:focus{
+        border-color: #1BB49F;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(72, 142, 194, 0.5), 0 0 8px rgba(52, 195, 175, 0.5);
+        box-shadow: inset 0 1px 1px rgba(72, 142, 194, 0.5), 0 0 8px rgba(52, 195, 175, 0.5);
+
+    }
+
+    .form-control-width{
+        width: 84%;
+    }
+
+    .btn{
+        cursor: pointer;
+        outline: none;
+        text-align: center;
+        background: #FFD500;
+        font-size: 0.875rem;
+        font-weight: 600;
+        border-radius: 20px;
+        line-height: 1;
+        padding: 12px 30px;
+        border: none;
+        color: #000;
+        float: right;
+        margin-right: 15%;
+    }
+
+    #send_button {
+        display: none;
+    }
+
+    .last-step-form{
+        margin-top: 3em;
+        background: #28B4B1;
+        padding: 20px 0 80px 80px;
+        border-radius: 10px;
+    }
+
+    .last-step-form .questions-title, .last-step-form label, .last-step-form label span{
+        color: #fff;
+    }
+
+    .red{
+        color: #ff0000!important;
+    }
+
+    #MMERGE13,#MMERGE23{
+        display: none;
+    }
+    /* ========================================  End default style ============================================ */
+
+
+
+
+    /*========================================= Start Footer style  ============================================*/
+
+    .page-footer{
+        border-top: 1px solid #9a9a9c;
+    }
+
+    .advantages-icons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 5% 0;
+
+    }
+
+    .icon-items{
+        width: 240px;
+        padding: 0 5px;
+    }
+
+    .adv-icon {
+        width: 100%;
+        height: 65px;
+        display: inline-block;
+        background: url("../img/nutritia-test-landing-page.jpg");
+    }
+
+    .first-icon{
+        background-position:-15px 0;
+    }
+
+    .second-icon{
+        background-position: -185px 0;
+    }
+
+    .third-icon{
+        background-position: -349px 0;
+    }
+
+    .fourth-icon{
+        background-position: -525px 0;
+    }
+
+    .fifth-icon{
+        background-position: 245px 0;
+    }
+
+    .icon-items p {
+        font-size: 18px;
+        text-align: center;
+        margin: auto -2px;
+        padding: 12px 7px;
+    }
+
+    .container-fluid{
+        background: #e8e8e8;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .items{
+        -ms-flex: 0 0 33%;
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+
+    .items .responsive-images{
+        margin: 0 auto;
+        padding: 5% 5%;
+        display: block;
+    }
+
+    .footer-list{
+        padding: 5% 5%;
+        list-style: none;
+        line-height: 1.7em;
+    }
+
+    .footer-list a{
+        text-decoration: none;
+    }
+
+    .footer-list a:hover{
+        color: #22252a;
+    }
+
+    .footer-copyright{
+        background: #ccc;
+        padding: 10px;
+        text-align: center;
+        border-top: 2px solid #bdb8b8;
+    }
+
+    /*========================================= End Footer style  ===============================================*/
+
+
+
+
+    /* ========================================  Style radio button ============================================ */
+
+    .container-buttom {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 20px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+    }
+
+    .container-buttom input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .checkmark-cube{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+        border-radius: 5px;
+    }
+
+
+    .container-buttom:hover input ~ .checkmark-cube {
+        background-color: #ccc;
+    }
+
+    .container-buttom input:checked ~ .checkmark-cube {
+        background-color: #28B4B1;
+    }
+
+    .checkmark-cube:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    .container-buttom input:checked ~ .checkmark-cube:after {
+        display: block;
+    }
+
+    .container-buttom .checkmark-cube:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid #fff;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+        border-radius: 50%;
+    }
+
+    .container-buttom:hover input ~ .checkmark {
+        background-color: #ccc;
+    }
+
+    .container-buttom input:checked ~ .checkmark {
+        background-color: #28B4B1;
+    }
+
+    .container-buttom input:checked ~ .checkmark_color{
+        background-color: #fff;
+    }
+
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    .container-buttom input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+    .container-buttom .checkmark:after {
+        top: 9px;
+        left: 8.5px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #fff;
+    }
+    .container-buttom .checkmark_color:after {
+        background: #28B4B1;
+    }
+
+    /* ========================================  end style radio button ============================================ */
+
+
+    /* ========================================  Start Scroll bar ============================================ */
+
+    .desktop-progress-container{
+        display: block;
+    }
+    .mobile-progress-container,.count_question{
+        display: none;
+    }
+
+    .progress-header {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        background-color: #f1f1f1;
+    }
+
+    .progress-container {
+        width: 100%;
+        height: 4px;
+        background: #ccc;
+    }
+
+    .progress-bar {
+        height: 4px;
+        background: linear-gradient(to right, #ff0000, #ee562c);
+        width: 0;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+
+    /* ========================================  End Scroll bar ============================================ */
+
+    /*--===================================== Start Media Query ========================================--*/
+
+    @media (max-width: 767px) {
+        .desktop-progress-container{
+            display: none;
+        }
+
+        .mobile-progress-container{
+            display: block;
+            position: static;
+            top: auto;
+            margin-bottom: 20px;
+        }
+
+        .first_section{
+            height: auto;
+        }
+
+        .tex-over-image{
+            position: static;
+            padding: 10% 5%;
+            left: 0;
+            transform: none;
+        }
+
+        .title{
+            font-size: 2em;
+        }
+
+        .paragraph{
+            font-size: 1.2em;
+        }
+
+        .form{
+            padding: 5% 5%;
+        }
+
+        .second_section{
+            background: #fff;
+        }
+
+        .count_question{
+            display: block;
+        }
+
+        .items{
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+
+    @media (min-width: 768px){
+        .container-fluid{
+            text-align: left;
+        }
+    }
+
+    /*--===================================== End Media Query ========================================--*/

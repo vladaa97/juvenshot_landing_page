@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./img/nutritia.ico">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Juvenshot | Nutritia</title>
+</head>
+<body>
+<div class="container-with">
+    <div class="progress-header">
+        <div class="progress-container desktop-progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+    <div class="first_section">
+        <div class="tex-over-image">
+            <h2 class="title">Kolika je vaša biološka starost?</h2>
+            <p class="paragraph">Da biste besplatno otkrili rezultate testa “koliko stvarno imate godina” odnosno “kolika je vaša prava biološka starost”, molimo vas da odgovorite na sledeća pitanja:</p>
+        </div>
+    </div>
+
+    <div class="second_section">
+        <div class="form">
+            <p  class="count_question"></p>
+            <form name="Form" class="forms" action="#" method="post" >
+                <div class="progress-container mobile-progress-container">
+                    <div class="progress-bar" id="myBar-mobile"></div>
+                </div>
+                <ul class="question">
+                    <li class="wizard-step">
+                        <h3 class="questions">Koliki je vaš uobičajeni (sistolni/gornji) arterijski pritisak?<span class="red">*</span></h3>
+
+                        <label class="container-buttom cursor" for="MMERGE12-0">
+                            <input type="radio" data-dojo-type="dijit/form/RadioButton"  name="MMERGE12" id="MMERGE12-0" value="Od 100 do 120 mmHg" class="cursor checked required">
+                            <span>Od 100 do 120 mmHg</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE12-1">
+                            <input type="radio" data-dojo-type="dijit/form/RadioButton"  name="MMERGE12" id="MMERGE12-1" value="Od 120 do 140 mmHg" class="cursor checked required">
+                            <span>Od 120 do 140 mmHg</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE12-2">
+                            <input type="radio" data-dojo-type="dijit/form/RadioButton" name="MMERGE12" id="MMERGE12-2" value="Od 140 do 160 mmHg"  class="cursor checked required">
+                            <span>Od 140 do 160 mmHg</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE12-3">
+                            <input type="radio" data-dojo-type="dijit/form/RadioButton" name="MMERGE12" id="MMERGE12-3" value="Preko 160 mmHg" class="cursor checked required">
+                            <span>Preko 160 mmHg</span>
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li class="wizard-step">
+                        <h3 class="questions">Da li i koliko cigareta popušite?<span class="red">*</span></h3>
+
+                        <label class="container-buttom cursor" for="MMERGE14-0">
+                            <input type="radio" data-dojo-type="dijit/form/RadioButton" name="MMERGE14" id="MMERGE14-0" value="Nikad nisam pušio" class="cursor checked required">
+                            <span>Nikad nisam pušio/pušila</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE14-1">
+                            <input type="radio" data-dojo-type="dijit/form/RadioButton" name="MMERGE14" id="MMERGE14-1" value="Ne pušim najmanje 10 godina" class="cursor checked required">
+                            <span>Ne pušim najmanje 10 godina</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE14-2">
+                            <input type="radio" data-dojo-type="dijit/form/RadioButton" name="MMERGE14" id="MMERGE14-2" value="Ne pušim već 5 do 10 godina" class="cursor checked required">
+                            <span>Ne pušim već 5 do 10 godina</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE14-3">
+                            <input type="radio" data-dojo-type="dijit/form/RadioButton" name="MMERGE14" id="MMERGE14-3" value="Ne pušim već 2 do 5 godina" class="cursor checked required">
+                            <span>Ne pušim već 2 do 5 godina</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE14-4">
+                            <input type="radio" data-dojo-type="dijit/form/RadioButton" name="MMERGE14" id="MMERGE14-4" value="Ne pušim manje od 2 godine" class="cursor checked required">
+                            <span>Ne pušim manje od 2 godine</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE14-5">
+                            <input type="radio" data-dojo-type="dijit/form/RadioButton" name="MMERGE14" id="MMERGE14-5" value="Pušim manje od 10 cigareta dnevno" class="cursor checked required">
+                            <span>Pušim manje od 10 cigareta dnevno</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE14-6">
+                            <input type="radio" data-dojo-type="dijit/form/RadioButton" name="MMERGE14" id="MMERGE14-6" value="Pušim 10 do 20 cigareta dnevno" class="cursor checked required">
+                            <span>Pušim 10 do 20 cigareta dnevno</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE14-7">
+                            <input type="radio" data-dojo-type="dijit/form/RadioButton" name="MMERGE14" id="MMERGE14-7" value="Pušim više od 20 cigareta dnevno" class="cursor checked required">
+                            <span>Pušim više od 20 cigareta dnevno</span>
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li class="wizard-step">
+                        <h3 class="questions">Koliko sati spavate dnevno?<span class="red">*</span></h3>
+
+                        <label class="container-buttom cursor" for="MMERGE15-0">
+                            <input type="radio" name="MMERGE15" id="MMERGE15-0" value="Od 6 do 8 sati" class="cursor checked required">
+                            <span>Od 6 do 8 sati</span>
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container-buttom cursor" for="MMERGE15-1">
+                            <input type="radio" name="MMERGE15" id="MMERGE15-1" value="Od 8 do 9 sati" class="cursor checked required">
+                            <span>Od 8 do 9 sati</span>
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container-buttom cursor" for="MMERGE15-2">
+                            <input type="radio" name="MMERGE15" id="MMERGE15-2" value="Manje od 6 sati" class="cursor checked required">
+                            <span>Manje od 6 sati</span>
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container-buttom cursor" for="MMERGE15-3">
+                            <input type="radio" name="MMERGE15" id="MMERGE15-3" value="Više od 9 sati" class="cursor checked required">
+                            <span>Više od 9 sati</span>
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li class="wizard-step">
+                        <h3 class="questions">Aktivno se bavite sportom ili ste aktivni u slobodno vreme:<span class="red">*</span></h3>
+
+                        <label class="container-buttom cursor" for="MMERGE16-0">
+                            <input type="radio" name="MMERGE16" id="MMERGE16-0" value="Nikada" class="cursor checked required">
+                            <span>Nikada</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE16-1">
+                            <input type="radio" name="MMERGE16" id="MMERGE16-1" value="Do 2 sata nedeljno ili manje" class="cursor checked required">
+                            <span>Do 2 sata nedeljno ili manje</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE16-2">
+                            <input type="radio" name="MMERGE16" id="MMERGE16-2" value="Do 2 sata nedeljno ili manje" class="cursor checked required">
+                            <span>Najmanje 2 do 4 sata nedeljno</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE16-3">
+                            <input type="radio" name="MMERGE16" id="MMERGE16-3" value="Do 2 sata nedeljno ili manje" class="cursor checked required">
+                            <span>Više od 4 sata nedeljno</span>
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li class="wizard-step">
+                        <h3 class="questions">Konzumiram alkohol (osnovna mera: 1 = 100 ml vina ili 330 ml piva ili 50 ml žestokog alkohola ili drugog alkoholnog pića):<span class="red">*</span></h3>
+
+                        <label class="container-buttom cursor" for="MMERGE17-0">
+                            <input type="radio" name="MMERGE17" id="MMERGE17-0" value="Nikada" class="cursor checked required">
+                            <span>Nikada</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE17-1">
+                            <input type="radio" name="MMERGE17" id="MMERGE17-1" value="2 puta dnevno (na primer - po čašu vina)" class="cursor checked required">
+                            <span>2 puta dnevno (na primer - po čašu vina)</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE17-2">
+                            <input type="radio" name="MMERGE17" id="MMERGE17-2" value="2 do 3 pića dnevno" class="cursor checked required">
+                            <span>2 do 3 pića dnevno</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE17-3">
+                            <input type="radio" name="MMERGE17" id="MMERGE17-3" value="Od 3 do 5 pića dnevno" class="cursor checked required">
+                            <span>Od 3 do 5 pića dnevno</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE17-4">
+                            <input type="radio" name="MMERGE17" id="MMERGE17-4" value="Više od 5 pića dnevno" class="cursor checked required">
+                            <span>Više od 5 pića dnevno</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                    </li>
+                    <li class="wizard-step">
+                        <h3 class="questions">Obično konzumiram:<span class="red">*</span></h3>
+
+                        <label class="container-buttom cursor" for="MMERGE18-0">
+                            <input type="radio" name="MMERGE18" id="MMERGE18-0" value="1 do 3 voćke dnevno" class="cursor checked required">
+                            <span>1 do 3 voćke dnevno</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE18-1">
+                            <input type="radio" name="MMERGE18" id="MMERGE18-1" value="1 do 3 voćke dnevno" class="cursor checked required">
+                            <span>Više od 3 voćke dnevno</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE18-2">
+                            <input type="radio" name="MMERGE18" id="MMERGE18-2" value="Uopšte ne jedem voće" class="cursor checked required">
+                            <span>Uopšte ne jedem voće</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE18-3">
+                            <input type="radio" name="MMERGE18" id="MMERGE18-3" value="1 do 3 porcije povrća" class="cursor checked required">
+                            <span>1 do 3 porcije povrća</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE18-4">
+                            <input type="radio" name="MMERGE18" id="MMERGE18-4" value="Više od 3 porcije povrća" class="cursor checked required">
+                            <span>Više od 3 porcije povrća</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE18-5">
+                            <input type="radio" name="MMERGE18" id="MMERGE18-5" value="Manje od 1 porcije povrća dnevno" class="cursor checked required">
+                            <span>Manje od 1 porcije povrća dnevno</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE18-6">
+                            <input type="radio" name="MMERGE18" id="MMERGE18-6" value="Nikada ne jedem ribu" class="cursor checked required">
+                            <span>Nikada ne jedem ribu</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE18-7">
+                            <input type="radio" name="MMERGE18" id="MMERGE18-7" value="Jedem ribu 1 ili 2 puta nedeljno" class="cursor checked required">
+                            <span>Jedem ribu 1 ili 2 puta nedeljno</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE18-8">
+                            <input type="radio" name="MMERGE18" id="MMERGE18-8" value="Jedem ribu jednom ili dva puta nedeljno" class="cursor checked required">
+                            <span>Jedem ribu više od 2 puta nedeljno</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                    </li>
+                    <li class="wizard-step">
+                        <h3 class="questions">Doručkujem:<span class="red">*</span></h3>
+
+                        <label class="container-buttom cursor" for="MMERGE19-0">
+                            <input type="radio" name="MMERGE19" id="MMERGE19-0" value="Najmanje 5 puta nedeljno" class="cursor checked required">
+                            <span>Najmanje 5 puta nedeljno</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE19-1">
+                            <input type="radio" name="MMERGE19" id="MMERGE19-1" value="Između 3 i 5 puta nedeljno" class="cursor checked required">
+                            <span>Između 3 i 5 puta nedeljno</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE19-2">
+                            <input type="radio" name="MMERGE19" id="MMERGE19-2" value="2 do 3 puta nedeljno" class="cursor checked required" >
+                            <span>2 do 3 puta nedeljno</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE19-3">
+                            <input type="radio" name="MMERGE19" id="MMERGE19-3" value="Manje od 2 puta nedeljno"class="cursor checked required">
+                            <span>Manje od 2 puta nedeljno</span>
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li class="wizard-step">
+                        <h3 class="questions">Koliko kilograma ste dobili posle 20. godine:<span class="red">*</span></h3>
+
+                        <label class="container-buttom cursor" for="MMERGE20-0">
+                            <input type="radio" name="MMERGE20" id="MMERGE20-0" value="Manje od 5 kg" class="cursor checked required">
+                            <span>Manje od 5 kg</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE20-1">
+                            <input type="radio" name="MMERGE20" id="MMERGE20-1" value="Između 5 i 8 kg" class="cursor checked required">
+                            <span>Između 5 i 8 kg</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE20-2">
+                            <input type="radio" name="MMERGE20" id="MMERGE20-2" value="Između 8 i 15 kg" class="cursor checked required">
+                            <span>Između 8 i 15 kg</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE20-3">
+                            <input type="radio" name="MMERGE20" id="MMERGE20-3" value="Između 15 i 20 kg" class="cursor checked required">
+                            <span>Između 15 i 20 kg</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE20-4">
+                            <input type="radio" name="MMERGE20" id="MMERGE20-4" value="Više od 20 kg" class="cursor checked required">
+                            <span>Više od 20 kg</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                    </li>
+                    <li class="wizard-step">
+                        <h3 class="questions">Stresne situacije:<span class="red">*</span></h3>
+
+                        <label class="container-buttom cursor" for="MMERGE21-0">
+                            <input type="radio" name="MMERGE21" id="MMERGE21-0" value="Nikada nisam pod stresom" class="cursor checked required" >
+                            <span>Nikada nisam pod stresom</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE21-1">
+                            <input type="radio" name="MMERGE21" id="MMERGE21-1" value="S vremena na vreme osećam stres, ali uspevam da se opustim" class="cursor checked required">
+                            <span>S vremena na vreme osećam stres, ali uspevam da se opustim</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE21-2">
+                            <input type="radio" name="MMERGE21" id="MMERGE21-2" value="Pod stresom sam stalno ili veoma često" class="cursor checked required">
+                            <span>Pod stresom sam stalno ili veoma često</span>
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li class="wizard-step">
+                        <h3 class="questions">Nasledni faktori:<span class="red">*</span></h3>
+
+                        <label class="container-buttom cursor" for="MMERGE22-0">
+                            <input type="radio" name="MMERGE22" id="MMERGE22-0" value="Moji otac i majka su živeli više od 75 godina" class="cursor checked required">
+                            <span>Moji otac i majka su živeli više od 75 godina</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE22-1">
+                            <input type="radio" name="MMERGE22" id="MMERGE22-1" value="Barem jedan od mojih roditelja je živeo duže od 75 godina" class="cursor checked required">
+                            <span>Barem jedan od mojih roditelja je živeo duže od 75 godina</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE22-2">
+                            <input type="radio" name="MMERGE22" id="MMERGE22-2" value="Ni otac ni majka nisu živeli duže od 75 godina" class="cursor checked required">
+                            <span>Ni otac ni majka nisu živeli duže od 75 godina</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="MMERGE22-3">
+                            <input type="radio" name="MMERGE22" id="MMERGE22-3" value="Barem jedan od mojih roditelja umro je pre 50. godine od ozbiljne bolesti" class="cursor checked required">
+                            <span>Barem jedan od mojih roditelja umro je pre 50. godine od ozbiljne bolesti</span>
+                            <span class="checkmark"></span>
+                        </label>
+
+                    </li>
+                    <li class="wizard-step">
+                        <h3 class="questions">Bolujem od jedne od sledećih bolesti:<span class="red">*</span></h3>
+
+                        <label class="container-buttom cursor" for="mce-group[6962]-6962-0">
+                            <input type="checkbox" value="1" name="group[6962][1]" id="mce-group[6962]-6962-0" class="cursor checked required">
+                            <span>Lakši oblik dijabetesa</span>
+                            <span class="checkmark-cube"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="mce-group[6962]-6962-1">
+                            <input type="checkbox" value="2" name="group[6962][2]" id="mce-group[6962]-6962-1" class="cursor checked required">
+                            <span>Teški oblik dijabetesa</span>
+                            <span class="checkmark-cube"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="mce-group[6962]-6962-2">
+                            <input type="checkbox" value="4" name="group[6962][4]" id="mce-group[6962]-6962-2" class="cursor checked required">
+                            <span>Astma</span>
+                            <span class="checkmark-cube"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="mce-group[6962]-6962-3">
+                            <input type="checkbox" value="8" name="group[6962][8]" id="mce-group[6962]-6962-3" class="cursor checked required">
+                            <span>Blaga depresija</span>
+                            <span class="checkmark-cube"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="mce-group[6962]-6962-4">
+                            <input type="checkbox" value="16" name="group[6962][16]" id="mce-group[6962]-6962-4" class="cursor checked required">
+                            <span>Ozbiljna depresija</span>
+                            <span class="checkmark-cube"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="mce-group[6962]-6962-5">
+                            <input type="checkbox" value="32" name="group[6962][32]" id="mce-group[6962]-6962-5" class="cursor checked required">
+                            <span>Teška depresija</span>
+                            <span class="checkmark-cube"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="mce-group[6962]-6962-6">
+                            <input type="checkbox" value="64" name="group[6962][64]" id="mce-group[6962]-6962-6" class="cursor checked required">
+                            <span>Srčani problem (srčani udar, ugrađen stent ili bajpas)</span>
+                            <span class="checkmark-cube"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="mce-group[6962]-6962-7">
+                            <input type="checkbox" value="128" name="group[6962][128]" id="mce-group[6962]-6962-7" class="cursor checked required">
+                            <span>Adendom (uvećanje) prostate</span>
+                            <span class="checkmark-cube"></span>
+                        </label>
+
+                        <label class="container-buttom cursor" for="mce-group[6962]-6962-8">
+                            <input type="checkbox" value="256" name="group[6962][256]" id="mce-group[6962]-6962-8" class="cursor checked required">
+                            <span>Nisam bolestan/bolesna</span>
+                            <span class="checkmark-cube"></span>
+                        </label>
+                    </li>
+                    <li class="wizard-step last-step-form">
+                        <h3 class="questions-title">Polja označena zvezdicom <span class="red">*</span> su obavezna.</h3>
+
+                        <label>Ime <span class="red">*</span>
+                            <input type="text" class="form-control inputText" name="MERGE1" id="MERGE1" placeholder="Unesite vaše ime ovde" required><br>
+                        </label>
+
+                        <label>Prezime <span class="red">*</span>
+                            <input type="text" class="form-control" name="MERGE2" id="MERGE2" placeholder="Unesite vaše prezime ovde" required>
+                        </label><br>
+
+                        <label>Pol <span class="red">*</span>
+                            <label class="container-buttom cursor" for="MERGE7-0">
+                                <input type="radio" data-dojo-type="dijit/form/RadioButton" name="MERGE7" id="MERGE7-0" value="Muško" class="container-buttom cursor" required>
+                                <span>Muško</span>
+                                <span class="checkmark checkmark_color"></span>
+                            </label>
+                            <label class="container-buttom cursor" for="MERGE7-1"><input type="radio" data-dojo-type="dijit/form/RadioButton" name="MERGE7" id="MERGE7-1" value="Žensko" class="container-buttom cursor" required>
+                                <span>Žensko</span>
+                                <span class="checkmark checkmark_color"></span>
+                            </label>
+                        </label><br>
+
+                        <label>Visina <span class="red">*</span><br>
+                            <input type="text" class="form-control" name="MERGE6" id="MERGE6" required>
+                        </label><br>
+
+                        <label>Težina (kg) <span class="red">*</span><br>
+                            <input type="text" class="form-control" name="MERGE8" id="MERGE8" required>
+                        </label><br>
+
+                        <label >Datum rođenja <span class="red">*</span><br>
+                            <div class="form-control-width" style="display:flex; flex-grow: 1;">
+                                <input type="text" class="form-control" name="MMERGE100" id="MMERGE100" size="1" value="" maxlength="2" placeholder="DD"style="margin: 0px 5px 0px 0px;" required> /
+                                <input type="text" class="form-control" name="MMERGE101" id="MMERGE101" size="1" value="" maxlength="2" placeholder="MM" style="margin: 0px 5px" required> /
+                                <input type="text" class="form-control" name="MMERGE102" id="MMERGE102" size="2" value="" maxlength="4" placeholder="GGGG" style="margin: 0px 5px;" required>
+                            </div>
+                        </label><br>
+
+                        <label>E-mail <span class="red">*</span>
+                            <input type="email" class="form-control" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" placeholder="Unesite vašu e-mail adresu ovde" required><br>
+                        </label><br>
+
+                        <label>Telefon <span class="red">*</span>
+                            <input type="text" class="form-control" name="MERGE4" id="MERGE4" placeholder="Unesite vaš broj telefona ovde" required><br>
+                        </label><br>
+
+                        <input type="hidden" class="form-control" name="MMERGE13" id="MMERGE13" size="3" value="" placeholder="year">
+                        <input type="hidden" class="form-control" name="MMERGE23" id="MMERGE23" size="3" value="" placeholder="real year">
+                        <button id="send_button" class="btn" type="submit">Pošalji</button>
+                    </li>
+                    <button id="next_button" class="btn" type="button">Sledeće</button>
+                </ul>
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="page-footer">
+        <div class="advantages-icons">
+            <div class="icon-items">
+                <span class="adv-icon first-icon">&nbsp;</span>
+                <p>Kupovina bez rizika 100% sigurni</p>
+            </div>
+            <div class="icon-items">
+                <span class="adv-icon second-icon">&nbsp;</span>
+                <p>100% Zadovoljni ili vraćamo novac</p>
+            </div>
+            <div class="icon-items">
+                <span class="adv-icon third-icon">&nbsp;</span>
+                <p>Klinički testirano</p>
+            </div>
+            <div class="icon-items">
+                <span class="adv-icon fourth-icon">&nbsp;</span>
+                <p>Proizvodi proizvedeni u Francuskoj</p>
+            </div>
+            <div class="icon-items">
+                <span class="adv-icon fifth-icon">&nbsp;</span>
+                <p>Najbolje cene</p>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="items">
+                <img class="responsive-images" src="img/logo.png" alt="logo nutritia">
+            </div>
+            <div class="items">
+                <ul class="footer-list">
+                    <li class="footer-item"><strong>O KOMPANIJI</strong></li>
+                    <li class="footer-item"><a href="https://nutritia.rs/uslovi-poslovanja/" target="_blank">Uslovi poslovanja</a></li>
+                    <li class="footer-item"><a href="https://nutritia.rs/garancije-i-reklamacije/" target="_blank">Garancije i Reklamacije</a></li>
+                    <li class="footer-item"><a href="https://nutritia.rs/uslovi-za-prihvatanje-platnih-kartica/" target="_blank">Uslovi za prihvatanje platnih kartica</a></li>
+                    <li class="footer-item"><a href="https://nutritia.rs/prava-i-zastita-potrosaca/" target="_blank">Zaštita podataka o ličnosti i politika privatnosti</a></li>
+                </ul>
+            </div>
+            <div class="items">
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="">WWW.NUTRITIA.RS</a></li>
+                    <li class="footer-item"><a href="mailto:kontakt@nutritia.rs">KONTAKT@NUTRITIA.RS</a></li>
+                    <li class="footer-item"><a href="tel:011 402-41-90">TEL: (+381)011 402-41-90</a></li>
+                    <li class="footer-item">(od ponedeljka do petka: 8:00 – 18:00, subotom od 8:00 do 15:00).</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">© 2020 Copyright: <a href="https://nutritia.rs/"> Nutritia.rs</a></div>
+    </footer>
+</div>
+
+</body>
+</html>
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/main.js"></script>
