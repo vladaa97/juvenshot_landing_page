@@ -1,1 +1,1 @@
-# juvenshot_landing_page
+# Landing page for the campaign
